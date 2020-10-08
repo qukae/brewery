@@ -1,0 +1,15 @@
+.section--brewery {
+  grid-template-columns: minmax(200px, 1fr) minmax(300px, 650px) 1fr;
+  gap: 20em;
+
+  &__image {
+    grid-column: 1 / 2;
+    overflow: hidden;
+    margin-left: auto;
+  }
+
+  &__text-box {
+    grid-column: 2 / 3;
+    align-self: center;
+  }
+}

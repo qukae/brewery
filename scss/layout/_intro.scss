@@ -1,0 +1,36 @@
+.section--intro{
+  background: {
+    image: url(../../images/hero-bg.jpg);
+    size: cover;
+    repeat: no-repeat;
+  }
+  .logo {
+    grid-column: 2 / 3;
+    margin-bottom: 3em;
+  }
+  padding: 10vh 0;
+  text-align: center;
+  color: $clr-brown-base;
+}
+.intro__text {
+  grid-column: 2 / 3;
+  position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background: #fff;
+    opacity: .3;
+    width: 100px;
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+.logo {
+  width: 250px;
+  margin: 0 auto 2em;
+  display: block;
+}

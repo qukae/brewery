@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  color: $clr-brown-light;
+  margin: 3em auto;
+
+  p {
+    font-family: $ff-title;
+    line-height: 1;
+    margin: 0;
+  }
+}
+
+.logo-light * {
+ fill: $clr-brown-light;
+}

@@ -1,0 +1,27 @@
+.btn {
+  display: inline-block;
+  font-family: $ff-title;
+  text-transform: uppercase;
+  padding: .25em 1.5em;
+  text-decoration: none;
+  margin: .5em 0 0;
+  border-radius: 10px;
+
+  &--light {
+    background: $clr-brown-light;
+    color: $clr-blue-dark;
+  }
+
+  &--dark {
+    background: $clr-blue-dark;
+    color: #fff;
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+  &--outline {
+    border: 2px solid currentColor;
+    color: $clr-blue-dark;
+  }
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: $ff-body;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: $clr-brown-dark;
+  font-weight: $fw-normal;
+}
+
+.section__title,
+.section__subtitle {
+  font-family: $ff-title;
+}
+
+.section__title {
+  font-size: 4rem;
+  color: $clr-blue-dark;
+}
+.section__subtitle {
+  font-size: 1.7rem;
+  color: $clr-blue-light;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,29 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+h1, h2, h3, p, figure {
+  margin: 0;
+}
+p {
+  margin-bottom: 1em;
+}
+.img {
+  min-width: 100%;
+  height: auto;
+}
+.section {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(300px, 650px) minmax(1em, 1fr);
+  padding: 5em 0 0;
+
+  &__title,
+  &__subtitle,
+  p {
+    grid-column: 2 / 3 ;
+  }
+}
+
+.section--cards {
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: minmax(1em, 1fr) repeat(6,1fr) minmax(1em,1fr);
+}
