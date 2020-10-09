@@ -254,7 +254,7 @@ nav a:hover {
 .card--dark {
   background: #414A4D;
   color: #A3B9BF;
-  padding-right: 15em;
+  padding-right: 5em;
 }
 
 .card--dark .section__title {
@@ -294,6 +294,7 @@ nav a:hover {
   -ms-grid-column: 5;
   -ms-grid-column-span: 3;
   grid-column: 5 / span 3;
+  margin-left: auto;
 }
 
 .btn {

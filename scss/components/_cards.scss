@@ -8,7 +8,7 @@
   &--dark {
     background: $clr-blue-dark;
     color: $clr-blue-light;
-    padding-right: 15em ;
+    padding-right: 5em ;
     .section__title {
       color: #fff;
     }
@@ -33,6 +33,7 @@
     }
     &--end {
       grid-column: 5 / span 3;
+      margin-left: auto;
     }
 
   }
